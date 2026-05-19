@@ -74,8 +74,7 @@ namespace classwork
                         case 4:
                             Console.WriteLine("Good bye!");
                             return;
-                    }
-                
+                    }  
             }
         }
     }

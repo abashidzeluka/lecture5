@@ -4,22 +4,22 @@
     {
         static void Main(string[] args)
         {
-            int[] arrey1 = [1, 2, 3];
-            int[] arrey2 = [4, 5, 6];
+            int[] array1 = [1, 2, 3];
+            int[] array2 = [4, 5, 6];
 
-            int[] resultArrey = new int[arrey1.Length + arrey2.Length];
+            int[] resultArray = new int[array1.Length + array2.Length];
 
-            for (int i = 0; i < arrey1.Length; i++)
+            for (int i = 0; i < array1.Length; i++)
             {
-                resultArrey[i] = arrey1[i];
+                resultArray[i] = array1[i];
             }
 
-            for (int i = 0; i < arrey2.Length; i++)
+            for (int i = 0; i < array2.Length; i++)
             {
-                resultArrey[arrey1.Length + i] = arrey2[i];
+                resultArray[array1.Length + i] = array2[i];
             }
 
-            foreach (int i in resultArrey)
+            foreach (int i in resultArray)
             {
                 Console.WriteLine(i);
             }
